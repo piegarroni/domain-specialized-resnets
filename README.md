@@ -1,10 +1,10 @@
 # Improving image classification robustness with domain specialized resnets
 
-In this repository you will find my project (bachelor thesis) about a novel approach to increase robustness in Image Classification
+In this repository you will find my project (bachelor thesis) about a novel approach to increase robustness in Image Classification.
 
 ### Steps
 
-The hypothesis is that by having a hierarchical algorith =m like shown below the accuracy across different test setes could be more consistent
+The hypothesis is that by having a hierarchical algorithm like shown below the accuracy across different test sets could be more consistent (the algorithm could be more robust).
 
 ![Alt text](images/Image_algorithm.png)
 
@@ -12,7 +12,7 @@ The data used is the ImageNet1k from Kaggle (https://www.kaggle.com/c/imagenet-o
 
 ![Alt text](images/schema.png)
 
-The domains are defined by labels' semantics vector (retrieved by Word2Vec)
+The domains are defined by labels' semantics vector (retrieved by Word2Vec); the number of cluster that was best fitting the data is 3:
 
 ![Alt text](images/3clusters.png)
 
